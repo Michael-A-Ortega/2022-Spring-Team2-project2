@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala:107:26: value format is not a member of (java.time.LocalDateTime, java.time.LocalDateTime, java.time.LocalDateTime, java.time.LocalDateTime)[0m
+[0m[[0m[31merror[0m] [0m[0m        return timeStamp.format("dd-MM-yyyy HH:mm:ss")[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

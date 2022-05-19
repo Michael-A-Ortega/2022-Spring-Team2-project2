@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(df4bb508-2b68-434a-b44a-23647b15ac1d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\target\scala-2.11\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0mjava.time.temporal.UnsupportedTemporalTypeException: Unsupported field: OffsetSeconds[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.time.LocalDate.get0(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.time.LocalDate.getLong(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.time.LocalDateTime.getLong(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.time.format.DateTimePrintContext.getValue(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.time.format.DateTimeFormatterBuilder$OffsetIdPrinterParser.format(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.time.format.DateTimeFormatterBuilder$CompositePrinterParser.format(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.time.format.DateTimeFormatter.formatTo(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.time.format.DateTimeFormatter.format(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.time.LocalDateTime.format(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2$.generate_datetime(project2.scala:106)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2$$anonfun$make_csv$1.apply(project2.scala:168)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2$$anonfun$make_csv$1.apply(project2.scala:159)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.Range.foreach(Range.scala:160)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2$.make_csv(project2.scala:159)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2$.main(project2.scala:142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at project2.main(project2.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.reflect.Method.invoke(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:143)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1983)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1922)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:369)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: OffsetSeconds[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed May 18, 2022 9:35:37 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

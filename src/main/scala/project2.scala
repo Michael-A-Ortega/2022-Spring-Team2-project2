@@ -7,6 +7,8 @@ import au.com.bytecode.opencsv.CSVWriter
 import java.io.{BufferedWriter, FileWriter}
 import scala.collection.mutable.ListBuffer
 import scala.collection.JavaConversions._
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 
 object project2 {
         val country_codes = Map("US" -> "United States", "CN"->"China", 
@@ -58,20 +60,21 @@ object project2 {
 	(50, 65,"Chili Beans (6x)","Consumable")
 )
 
-    def payment(): String = {
+    def payment(): (String, String) = {
         //print success or not
         val pt_inv_reasons = List("Insufficient funds", "Invalid expiration date", "Incorrect credit card number",
         "Over limit", "Expired card", "Invalid security code", "Lost card", "Unsupported card type")
         var payment_success = 0
-        var str = ""
+        var successTup = ("", "")
         payment_success = Random.nextInt(2)
         if(payment_success == 0){
-            str = "Success"
+            successTup = ("Success", null)
         }
         else{
-            str = "Failed," + pt_inv_reasons(Random.nextInt(pt_inv_reasons.size))
+            successTup = ("Failed",pt_inv_reasons(Random.nextInt(pt_inv_reasons.size)))
+            //+ pt_inv_reasons(Random.nextInt(pt_inv_reasons.size))
         }
-        return str  
+        return successTup  
     }
 
     def generate_txn_id(): String = {
@@ -85,14 +88,23 @@ object project2 {
 
     }
 
-    def generate_orderId(): String = {
+    def generate_orderId(date:String,cust_id:String): String = {
         //United States, China, Canada, Australia, Germany, Japan, United Kingdom
         //order id: countrycode - date - 1-10000
  
-        val dates = List("20221705","20221805","20221905","2022205")
+        //val dates = List("20221705","20221805","20221905","2022205")
         val kys_country = country_codes.keys.toList
 
-        return kys_country(Random.nextInt(kys_country.size)) + "-" + dates(Random.nextInt(dates.size))  + "-" + Random.alphanumeric.take(4).mkString
+        return kys_country(Random.nextInt(kys_country.size)) + "-" + date.split("-").mkString + "-" + Random.alphanumeric.take(4).mkString+"-"+cust_id
+    }
+
+    def generate_datetime():String = {
+
+        val currentTime = LocalDateTime.now()
+        val format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm")
+        var timeStamp = currentTime.minusMonths(Random.nextInt(2)).minusDays(Random.nextInt(26)).minusHours(Random.nextInt(7)).minusMinutes(Random.nextInt(40))
+        
+        return timeStamp.format(format)
     }
 
 
@@ -138,19 +150,26 @@ object project2 {
         val outputfile = new BufferedWriter(new FileWriter("eCommerce.csv"))
         val csvWriter = new CSVWriter(outputfile)
         val csvFields = Array("Order_id", "Customer_id", "Customer_name", "Product_ID",
-         "Product_Name", "Product_Category", "Payment Type","QTY", "Country", "City", "Payment Transaciton ID",
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "Payment Transaciton ID",
          "Payment Status", "Notes")
 
         var listOfRecords = new ListBuffer[Array[String]]()
         listOfRecords += csvFields
+        (4, 30, "Crate of Plastic Forks", "Utensils")
+        var quantity = 0
          for (i <- 0 to 10000){
+            
+            quantity = Random.nextInt(200)
             payment_choice = payment_type(Random.nextInt(4))
             val product = products(Random.nextInt(products.size))
             val rnd = Random.nextInt(persons.size)
-            listOfRecords += Array(generate_orderId(), persons(rnd).customerId.toString(),
-            persons(rnd).name, product._1.toString(), product._3, product._4,
-            persons(rnd).country, payment_choice.toString(), (product._2 * Random.nextInt(30)).toString(),
-            persons(rnd).city, generate_txn_id(), payment())
+            val success = payment()
+            val date_time = generate_datetime()
+            val order_Id = generate_orderId(date = date_time.split(" ")(0),persons(rnd).customerId.toString())
+            listOfRecords += Array(order_Id, persons(rnd).customerId.toString(),
+            persons(rnd).name, product._1.toString(), product._3, product._4, payment_choice.toString(),
+            quantity.toString(),"$"+(quantity * product._2), date_time ,persons(rnd).country, persons(rnd).city,
+            generate_txn_id(), success._1, success._2)
         
         }
         val imlist = listOfRecords.toList
