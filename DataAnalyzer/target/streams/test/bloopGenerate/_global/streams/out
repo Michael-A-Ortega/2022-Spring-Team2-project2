@@ -1,0 +1,4 @@
+[debug] [projectquerey-test] Classpath dependencies List()
+[debug] [projectquerey-test] Dependencies from configurations List(projectquerey)
+[debug] Bloop wrote the configuration of project 'projectquerey-test' to 'C:\Users\micha_j1zul72\scala\ProjectQuerey\.bloop\projectquerey-test.json'
+[success] Generated .bloop\projectquerey-test.json
