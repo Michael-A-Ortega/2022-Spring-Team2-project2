@@ -989,3 +989,1291 @@ scala.meta.internal.metals.MetalsBspException: BSP connection failed in the atte
 2022.05.19 12:19:18 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
 2022.05.19 12:59:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\lsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\lsp.trace.json
 2022.05.19 12:59:49 INFO  logging to file C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\metals.log
+2022.05.19 12:59:49 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2' for client Visual Studio Code 1.67.2.
+2022.05.19 12:59:50 INFO  time: initialize in 0.78s
+2022.05.19 12:59:54 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.19 12:59:54 INFO  Attempting to connect to the build server...
+2022.05.19 12:59:54 INFO  skipping build import with status 'Installed'
+2022.05.19 12:59:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\bsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.19 12:59:54 INFO  Attempting to connect to the build server...
+2022.05.19 12:59:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\project\.metals\bsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.19 12:59:54 INFO  time: Connected to build server in 0.13s
+2022.05.19 12:59:54 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.19 12:59:57 INFO  time: indexed workspace in 1.95s
+2022.05.19 13:44:55 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 13:44:55 INFO  time: compiled root-2022-spring-team2-project2 in 0.11s
+2022.05.19 13:44:57 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 13:44:57 INFO  time: compiled root-2022-spring-team2-project2 in 0.82s
+2022.05.19 13:45:02 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 13:45:02 INFO  time: compiled root-2022-spring-team2-project2 in 0.83s
+2022.05.19 13:45:25 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 13:45:25 INFO  time: compiled root-2022-spring-team2-project2 in 0.81s
+2022.05.19 14:14:46 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 14:14:46 INFO  time: compiled root-2022-spring-team2-project2 in 0.79s
+2022.05.19 14:15:02 INFO  shutting down Metals
+2022.05.19 14:15:02 INFO  Shut down connection with build server.
+2022.05.19 14:15:02 INFO  Shut down connection with build server.
+2022.05.19 18:41:34 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\lsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.19 18:41:35 INFO  logging to file C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\metals.log
+2022.05.19 18:41:35 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2' for client Visual Studio Code 1.67.2.
+2022.05.19 18:41:35 INFO  time: initialize in 0.78s
+2022.05.19 18:41:36 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.19 18:41:36 INFO  Attempting to connect to the build server...
+2022.05.19 18:41:35 INFO  skipping build import with status 'Installed'
+2022.05.19 18:41:39 INFO  no build target found for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.19 18:41:41 INFO  time: code lens generation in 4.36s
+2022.05.19 18:41:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\bsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.19 18:41:42 INFO  Attempting to connect to the build server...
+2022.05.19 18:41:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\project\.metals\bsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.19 18:41:42 INFO  time: Connected to build server in 6.07s
+2022.05.19 18:41:42 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.19 18:41:42 INFO  time: Imported build in 0.11s
+2022.05.19 18:41:44 INFO  time: indexed workspace in 1.52s
+2022.05.19 18:43:02 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 18:43:05 INFO  time: compiled root-2022-spring-team2-project2 in 3.26s
+2022.05.19 18:46:48 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 18:46:49 INFO  time: compiled root-2022-spring-team2-project2 in 1.18s
+2022.05.19 18:59:38 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 18:59:39 INFO  time: compiled root-2022-spring-team2-project2 in 1.05s
+May 19, 2022 7:06:11 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.Predef$.Integer2int(Predef.scala:362)
+	at scala.meta.internal.pc.SignatureHelpProvider.toSignatureHelp(SignatureHelpProvider.scala:470)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.Option.map(Option.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:28)
+
+2022.05.19 19:06:13 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 19:06:13 INFO  time: compiled root-2022-spring-team2-project2 in 0.9s
+2022.05.19 19:06:23 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 19:06:23 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:23 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:23 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:23 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:23 INFO  time: compiled root-2022-spring-team2-project2 in 0.13s
+2022.05.19 19:06:28 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:28 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:28 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:28 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:28 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:28 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:30 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:30 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:30 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:30 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:30 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:30 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:30 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:30 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:30 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:31 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:31 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:31 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:36 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:36 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:36 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:36 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:36 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:36 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:37 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:37 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:37 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:37 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:37 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:37 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:37 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:37 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:37 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:39 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:40 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:42 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:42 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:42 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:43 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:43 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:43 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:43 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:157:106: stale bloop error: unclosed string literal
+         "Product_Name", "Product_Category", "Payment Type","QTY","Price","Datetime" ,"Country", "City", "ecommerce_website_nam
+                                                                                                         ^
+2022.05.19 19:06:43 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:158:28: stale bloop error: unclosed string literal
+e","Payment Transaciton ID",
+                           ^
+2022.05.19 19:06:43 INFO  file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala:187:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.19 19:06:44 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 19:06:44 INFO  time: compiled root-2022-spring-team2-project2 in 0.81s
+May 19, 2022 7:07:28 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.Predef$.Integer2int(Predef.scala:362)
+	at scala.meta.internal.pc.SignatureHelpProvider.toSignatureHelp(SignatureHelpProvider.scala:470)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.Option.map(Option.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:28)
+
+2022.05.19 19:07:50 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 19:07:50 INFO  time: compiled root-2022-spring-team2-project2 in 0.86s
+2022.05.19 19:09:04 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 19:09:04 INFO  time: compiled root-2022-spring-team2-project2 in 0.8s
+2022.05.19 19:28:08 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 19:28:09 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 19:28:09 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 19:28:08 INFO  time: compiled root-2022-spring-team2-project2 in 0.8s
+2022.05.19 19:28:12 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 19:28:12 INFO  time: compiled root-2022-spring-team2-project2 in 0.84s
+2022.05.19 19:28:59 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 19:28:59 INFO  time: compiled root-2022-spring-team2-project2 in 0.95s
+2022.05.19 20:20:34 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:20:34 INFO  time: compiled root-2022-spring-team2-project2 in 0.2s
+2022.05.19 20:20:41 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:20:41 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.19 20:24:12 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:24:12 INFO  time: compiled root-2022-spring-team2-project2 in 93ms
+2022.05.19 20:24:15 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:24:15 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:24:15 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:24:15 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 20:26:51 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:26:51 INFO  time: compiled root-2022-spring-team2-project2 in 75ms
+2022.05.19 20:26:53 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:26:53 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.19 20:27:00 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:27:00 INFO  time: compiled root-2022-spring-team2-project2 in 73ms
+2022.05.19 20:27:03 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:03 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:04 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:07 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:08 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:10 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:11 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:12 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:13 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:27:13 INFO  time: compiled root-2022-spring-team2-project2 in 72ms
+2022.05.19 20:27:15 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:15 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:16 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:16 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:17 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:18 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:19 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:20 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:21 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:27:21 INFO  time: compiled root-2022-spring-team2-project2 in 71ms
+2022.05.19 20:27:23 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:23 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:27:23 INFO  time: compiled root-2022-spring-team2-project2 in 72ms
+2022.05.19 20:27:23 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:25 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:26 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:27:26 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:27:26 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 20:30:05 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:30:05 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.19 20:30:15 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:30:15 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:30:19 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:30:19 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 20:31:27 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:31:27 INFO  time: compiled root-2022-spring-team2-project2 in 0.26s
+2022.05.19 20:31:30 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:31:33 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:31:33 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:31:33 INFO  time: compiled root-2022-spring-team2-project2 in 0.19s
+2022.05.19 20:31:34 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:31:36 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:31:37 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:31:37 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:31:37 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:31:37 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:31:37 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:31:39 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:34:27 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:34:27 INFO  time: compiled root-2022-spring-team2-project2 in 0.79s
+2022.05.19 20:39:48 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:39:48 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.19 20:40:21 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:40:21 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 20:42:27 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:42:27 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.19 20:43:11 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:43:11 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.19 20:43:24 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:43:24 INFO  time: compiled root-2022-spring-team2-project2 in 0.92s
+May 19, 2022 8:46:23 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:23 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:24 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:25 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:26 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:26 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:26 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:26 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:27 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:28 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:30 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:30 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:39 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.05.19 20:46:44 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:46:44 INFO  time: compiled root-2022-spring-team2-project2 in 97ms
+May 19, 2022 8:46:44 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:45 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:45 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:46 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:48 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:49 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:50 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 19, 2022 8:46:52 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.05.19 20:46:53 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:46:53 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.19 20:47:16 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:47:16 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:47:27 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:47:27 INFO  time: compiled root-2022-spring-team2-project2 in 0.71s
+2022.05.19 20:50:31 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:50:31 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.19 20:50:43 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:50:43 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:51:00 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:51:00 INFO  time: compiled root-2022-spring-team2-project2 in 0.19s
+2022.05.19 20:51:07 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:51:07 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:51:20 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:51:20 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:51:22 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:51:22 INFO  time: compiled root-2022-spring-team2-project2 in 0.19s
+2022.05.19 20:51:32 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:51:32 INFO  time: compiled root-2022-spring-team2-project2 in 0.19s
+2022.05.19 20:51:34 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:51:34 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:51:37 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:51:37 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:51:53 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:51:53 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:52:02 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:52:02 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:52:05 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:52:05 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:52:08 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:52:08 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:52:13 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:52:13 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:52:15 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:52:15 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:52:38 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:52:38 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:52:50 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:52:50 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:52:55 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:52:55 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:53:02 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:53:02 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:53:05 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:53:05 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:53:08 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:53:08 INFO  time: compiled root-2022-spring-team2-project2 in 73ms
+2022.05.19 20:53:12 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:53:12 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:53:21 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:53:21 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+something's wrong: no file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala, 8427, 8427, 8448)
+May 19, 2022 8:53:50 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.Predef$.Integer2int(Predef.scala:362)
+	at scala.meta.internal.pc.SignatureHelpProvider.toSignatureHelp(SignatureHelpProvider.scala:470)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.Option.map(Option.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:28)
+
+2022.05.19 20:53:52 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:53:52 INFO  time: compiled root-2022-spring-team2-project2 in 0.16s
+2022.05.19 20:55:08 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:55:08 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:55:18 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:55:18 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:55:23 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:55:23 INFO  time: compiled root-2022-spring-team2-project2 in 0.16s
+2022.05.19 20:55:25 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:55:25 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:55:30 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:55:30 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 20:55:32 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:55:32 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:55:34 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:55:34 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:55:38 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:55:38 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:55:41 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:55:41 INFO  time: compiled root-2022-spring-team2-project2 in 0.16s
+2022.05.19 20:55:50 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:55:50 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.19 20:56:51 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:56:51 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.19 20:57:36 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:57:36 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:36 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:36 INFO  time: compiled root-2022-spring-team2-project2 in 0.16s
+2022.05.19 20:57:36 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:36 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:37 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:38 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:38 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:57:38 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 20:57:38 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:39 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:40 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:41 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:44 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:57:44 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:57:44 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.19 20:58:41 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:58:41 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.19 20:58:48 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:58:49 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:58:49 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 20:58:48 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 20:59:21 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:59:21 INFO  Deduplicating compilation of root-2022-spring-team2-project2 from bsp client 'Metals 0.11.5' (since 2h 17m 39.404s)
+2022.05.19 20:59:21 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:59:21 INFO  time: compiled root-2022-spring-team2-project2 in 0.69s
+2022.05.19 20:59:57 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 20:59:57 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.19 21:00:02 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:00:02 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.19 21:00:04 INFO  Deduplicating compilation of root-2022-spring-team2-project2 from bsp client 'Metals 0.11.5' (since 2h 18m 22.45s)
+2022.05.19 21:00:04 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:00:04 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:00:04 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 21:00:17 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:00:17 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:00:17 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:00:17 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.19 21:00:57 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:00:57 INFO  time: compiled root-2022-spring-team2-project2 in 0.16s
+2022.05.19 21:01:10 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:01:10 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:01:20 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:01:20 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.19 21:04:18 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:04:18 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:04:18 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.19 21:04:59 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:04:59 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 21:05:02 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:05:02 INFO  time: compiled root-2022-spring-team2-project2 in 61ms
+2022.05.19 21:05:04 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:05:04 INFO  time: compiled root-2022-spring-team2-project2 in 0.94s
+2022.05.19 21:06:28 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:06:28 INFO  time: compiled root-2022-spring-team2-project2 in 0.24s
+2022.05.19 21:06:30 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:06:30 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:06:31 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:06:32 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:06:32 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:06:33 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:06:34 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:06:35 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:06:36 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:06:37 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:06:37 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:06:37 INFO  time: compiled root-2022-spring-team2-project2 in 0.8s
+2022.05.19 21:07:49 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:07:49 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.19 21:08:21 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:08:21 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.19 21:09:05 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:09:05 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.19 21:09:26 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:09:26 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 21:09:28 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:09:28 INFO  time: compiled root-2022-spring-team2-project2 in 0.16s
+2022.05.19 21:09:36 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:09:36 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.19 21:09:48 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:09:48 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+May 19, 2022 9:10:07 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.Predef$.Integer2int(Predef.scala:362)
+	at scala.meta.internal.pc.SignatureHelpProvider.toSignatureHelp(SignatureHelpProvider.scala:470)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.Option.map(Option.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:28)
+
+2022.05.19 21:10:22 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:10:22 INFO  time: compiled root-2022-spring-team2-project2 in 0.2s
+2022.05.19 21:10:43 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:10:43 INFO  time: compiled root-2022-spring-team2-project2 in 0.19s
+2022.05.19 21:10:48 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:10:48 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.19 21:10:51 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:10:51 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 21:10:56 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:10:56 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:10:56 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:10:56 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:10:56 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:10:56 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.19 21:11:19 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:11:19 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 21:11:43 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:11:43 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.19 21:13:25 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:13:25 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:13:27 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:13:27 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:13:36 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:13:36 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:13:42 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:13:42 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:13:46 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:13:46 INFO  time: compiled root-2022-spring-team2-project2 in 0.16s
+2022.05.19 21:13:50 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:13:50 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:13:59 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:13:59 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:14:03 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:03 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:14:06 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:06 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:14:11 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:11 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:14:15 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:15 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:14:18 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:18 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:14:22 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:22 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.19 21:14:24 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:24 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.19 21:14:29 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:30 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:14:29 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.19 21:14:32 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:32 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.19 21:14:36 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:36 INFO  time: compiled root-2022-spring-team2-project2 in 0.79s
+2022.05.19 21:14:43 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:14:43 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.19 21:15:27 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:15:27 INFO  time: compiled root-2022-spring-team2-project2 in 0.79s
+2022.05.19 21:15:54 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:15:54 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.19 21:16:00 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:16:00 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.19 21:16:02 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:16:02 INFO  time: compiled root-2022-spring-team2-project2 in 0.97s
+2022.05.19 21:16:06 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:16:06 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:06 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:06 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:06 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:07 INFO  time: compiled root-2022-spring-team2-project2 in 1.05s
+2022.05.19 21:16:09 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:16:09 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 21:16:12 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:16:12 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:12 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:12 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:12 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:12 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:12 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 21:16:17 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:16:17 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 21:16:20 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:16:20 INFO  time: compiled root-2022-spring-team2-project2 in 0.16s
+2022.05.19 21:16:20 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:20 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:20 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:20 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:20 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:20 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:21 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:21 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:21 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:21 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:22 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:16:22 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:16:22 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.19 21:16:43 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:16:43 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.19 21:17:07 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:17:07 INFO  time: compiled root-2022-spring-team2-project2 in 0.83s
+2022.05.19 21:17:14 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:17:14 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:17:14 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.19 21:18:43 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:18:43 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.19 21:20:46 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:20:46 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 21:22:31 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:22:31 INFO  time: compiled root-2022-spring-team2-project2 in 0.71s
+2022.05.19 21:22:34 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:22:34 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:22:34 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.19 21:23:36 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:23:36 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.19 21:23:40 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:23:40 INFO  time: compiled root-2022-spring-team2-project2 in 0.19s
+2022.05.19 21:23:45 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:23:45 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.19 21:23:55 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:23:55 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.19 21:24:03 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:24:03 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.19 21:32:03 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:32:03 INFO  time: compiled root-2022-spring-team2-project2 in 0.94s
+2022.05.19 21:32:25 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:32:25 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:32:25 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:32:25 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+something's wrong: no file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala in Array[<error>]RangePosition(file:///C:/Users/micha_j1zul72/scala/2022-Spring-Team2-project2/src/main/scala/project2.scala, 8475, 8475, 8490)
+May 19, 2022 9:32:45 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.Predef$.Integer2int(Predef.scala:362)
+	at scala.meta.internal.pc.SignatureHelpProvider.toSignatureHelp(SignatureHelpProvider.scala:470)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.Option.map(Option.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:28)
+
+2022.05.19 21:32:47 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:32:47 INFO  time: compiled root-2022-spring-team2-project2 in 0.16s
+2022.05.19 21:32:51 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:32:52 INFO  time: compiled root-2022-spring-team2-project2 in 1.01s
+2022.05.19 21:33:24 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:33:24 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.19 21:33:28 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:33:28 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:33:28 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:33:28 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.19 21:35:31 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:35:31 INFO  time: compiled root-2022-spring-team2-project2 in 60ms
+2022.05.19 21:35:34 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:35:34 INFO  time: compiled root-2022-spring-team2-project2 in 0.72s
+2022.05.19 21:36:01 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:36:01 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:36:01 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:36:02 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.19 21:36:01 INFO  time: compiled root-2022-spring-team2-project2 in 0.92s
+2022.05.19 21:36:18 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.19 21:36:18 INFO  time: compiled root-2022-spring-team2-project2 in 0.72s
+2022.05.19 21:38:03 INFO  shutting down Metals
+2022.05.19 21:38:03 INFO  Shut down connection with build server.
+2022.05.19 21:38:03 INFO  Shut down connection with build server.
+2022.05.20 05:58:47 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\lsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.20 05:58:48 INFO  logging to file C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\metals.log
+2022.05.20 05:58:48 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2' for client Visual Studio Code 1.67.2.
+2022.05.20 05:58:49 INFO  time: initialize in 0.77s
+2022.05.20 05:58:49 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.20 05:58:49 INFO  Attempting to connect to the build server...
+2022.05.20 05:58:49 INFO  skipping build import with status 'Installed'
+2022.05.20 05:58:51 INFO  no build target found for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.20 05:58:53 INFO  time: code lens generation in 3.62s
+2022.05.20 05:58:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\bsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.20 05:58:54 INFO  Attempting to connect to the build server...
+2022.05.20 05:58:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\project\.metals\bsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.20 05:58:54 INFO  time: Connected to build server in 5.71s
+2022.05.20 05:58:54 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.20 05:58:55 INFO  time: Imported build in 0.11s
+2022.05.20 05:58:56 INFO  time: indexed workspace in 1.32s
+2022.05.20 06:08:37 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:08:41 INFO  time: compiled root-2022-spring-team2-project2 in 3.56s
+2022.05.20 06:08:43 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:08:45 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:14 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:45 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:46 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:46 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:49 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:50 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:50 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:50 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:11:51 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:51 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:51 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:51 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:51 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:11:51 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+May 20, 2022 6:11:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.nio.file.FileSystemNotFoundException: C:\Program%20Files\Java\jdk1.8.0_331\src.zip
+java.util.concurrent.CompletionException: java.nio.file.FileSystemNotFoundException: C:\Program%20Files\Java\jdk1.8.0_331\src.zip
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.nio.file.FileSystemNotFoundException: C:\Program%20Files\Java\jdk1.8.0_331\src.zip
+	at com.sun.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:120)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:117)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:326)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:276)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:110)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:137)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:617)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:614)
+	at scala.meta.internal.metals.Compilers.$anonfun$definition$3(Compilers.scala:389)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionJavaList.map(MetalsEnrichments.scala:226)
+	at scala.meta.internal.metals.Compilers.$anonfun$definition$2(Compilers.scala:388)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.05.20 06:11:52 INFO  time: compiled root-2022-spring-team2-project2 in 1.22s
+2022.05.20 06:12:25 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:12:26 INFO  time: compiled root-2022-spring-team2-project2 in 1.08s
+2022.05.20 06:14:21 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:14:21 INFO  time: compiled root-2022-spring-team2-project2 in 0.96s
+2022.05.20 06:14:40 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:14:40 INFO  time: compiled root-2022-spring-team2-project2 in 0.83s
+2022.05.20 06:16:27 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:16:27 INFO  time: compiled root-2022-spring-team2-project2 in 0.89s
+2022.05.20 06:17:03 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:17:03 INFO  time: compiled root-2022-spring-team2-project2 in 0.81s
+2022.05.20 06:17:16 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:17:16 INFO  time: compiled root-2022-spring-team2-project2 in 0.82s
+2022.05.20 06:17:37 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:17:37 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:17:37 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:17:38 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:17:37 INFO  time: compiled root-2022-spring-team2-project2 in 0.8s
+2022.05.20 06:17:40 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:17:40 INFO  time: compiled root-2022-spring-team2-project2 in 0.96s
+2022.05.20 06:17:54 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:17:54 INFO  time: compiled root-2022-spring-team2-project2 in 0.24s
+2022.05.20 06:17:55 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:17:56 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:17:56 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:17:56 INFO  time: compiled root-2022-spring-team2-project2 in 0.2s
+2022.05.20 06:17:56 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:17:57 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:17:57 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:17:57 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:17:59 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:17:59 INFO  time: compiled root-2022-spring-team2-project2 in 0.19s
+2022.05.20 06:17:59 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:01 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:01 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:04 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:04 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:06 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:06 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:07 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:07 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:08 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:18:08 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:08 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:08 INFO  time: compiled root-2022-spring-team2-project2 in 0.22s
+2022.05.20 06:18:08 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:10 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:10 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:10 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:18:10 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:10 INFO  time: compiled root-2022-spring-team2-project2 in 0.2s
+2022.05.20 06:18:11 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:11 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:11 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:12 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:12 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:13 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:18:13 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:13 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.20 06:18:21 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:18:21 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.20 06:18:24 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:18:24 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.20 06:18:38 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:18:38 INFO  time: compiled root-2022-spring-team2-project2 in 83ms
+2022.05.20 06:18:40 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:41 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:18:41 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:18:41 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.20 06:19:55 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:19:55 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.20 06:20:02 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:20:02 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.20 06:20:18 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:20:18 INFO  time: compiled root-2022-spring-team2-project2 in 72ms
+2022.05.20 06:20:19 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:20 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:24 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:24 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:26 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:28 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:28 INFO  time: compiled root-2022-spring-team2-project2 in 0.26s
+2022.05.20 06:20:28 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:28 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:28 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:28 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:30 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:20:30 INFO  time: compiled root-2022-spring-team2-project2 in 0.22s
+2022.05.20 06:20:30 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:32 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:34 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:34 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:35 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:35 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:35 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:35 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:36 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:36 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:37 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:36 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:20:38 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:20:38 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.20 06:20:54 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:20:54 INFO  time: compiled root-2022-spring-team2-project2 in 0.19s
+2022.05.20 06:21:00 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:21:00 INFO  time: compiled root-2022-spring-team2-project2 in 0.19s
+2022.05.20 06:21:03 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:21:03 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.20 06:21:11 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:21:11 INFO  time: compiled root-2022-spring-team2-project2 in 0.2s
+May 20, 2022 6:21:27 AM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.Predef$.Integer2int(Predef.scala:362)
+	at scala.meta.internal.pc.SignatureHelpProvider.toSignatureHelp(SignatureHelpProvider.scala:470)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.Option.map(Option.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:28)
+
+2022.05.20 06:21:28 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:21:28 INFO  time: compiled root-2022-spring-team2-project2 in 0.2s
+2022.05.20 06:22:03 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:22:03 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.20 06:22:12 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:22:12 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.20 06:22:14 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:22:14 INFO  Deduplicating compilation of root-2022-spring-team2-project2 from bsp client 'Metals 0.11.5' (since 23m 19.573s)
+2022.05.20 06:22:14 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:22:14 INFO  time: compiled root-2022-spring-team2-project2 in 0.66s
+2022.05.20 06:22:17 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:22:17 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:22:17 INFO  time: compiled root-2022-spring-team2-project2 in 0.17s
+2022.05.20 06:22:17 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:22:17 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:22:18 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:22:20 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:22:20 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:23:15 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:23:15 INFO  time: compiled root-2022-spring-team2-project2 in 0.84s
+2022.05.20 06:23:23 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:23:23 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.20 06:23:28 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:23:28 INFO  time: compiled root-2022-spring-team2-project2 in 0.93s
+2022.05.20 06:23:32 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:23:32 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:23:32 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:23:32 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:23:32 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:23:32 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.20 06:23:45 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:23:45 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.20 06:23:57 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:23:57 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:23:57 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 06:23:57 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 20, 2022 6:24:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.05.20 06:26:49 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:26:49 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.20 06:27:04 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:27:04 INFO  time: compiled root-2022-spring-team2-project2 in 0.72s
+2022.05.20 06:52:19 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:52:19 INFO  time: compiled root-2022-spring-team2-project2 in 0.72s
+2022.05.20 06:52:29 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:52:29 INFO  time: compiled root-2022-spring-team2-project2 in 0.86s
+2022.05.20 06:52:38 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:52:38 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.20 06:53:26 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:53:26 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.20 06:54:03 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:54:03 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.20 06:54:23 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:54:23 INFO  time: compiled root-2022-spring-team2-project2 in 0.2s
+2022.05.20 06:54:27 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:54:27 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.20 06:54:31 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 06:54:31 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.20 07:02:22 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:02:22 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.20 07:02:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 07:02:27 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:02:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 07:02:27 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 07:02:27 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.20 07:02:31 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:02:31 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.20 07:07:30 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:07:30 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.20 07:09:00 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:09:00 INFO  time: compiled root-2022-spring-team2-project2 in 0.92s
+2022.05.20 07:09:26 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:09:26 INFO  time: compiled root-2022-spring-team2-project2 in 0.18s
+2022.05.20 07:09:41 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:09:41 INFO  time: compiled root-2022-spring-team2-project2 in 0.81s
+2022.05.20 07:26:02 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:26:02 INFO  time: compiled root-2022-spring-team2-project2 in 66ms
+2022.05.20 07:26:04 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:26:04 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.20 07:26:11 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:26:11 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 07:26:11 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 07:26:11 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.20 07:26:18 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:26:18 INFO  time: compiled root-2022-spring-team2-project2 in 0.72s
+2022.05.20 07:26:22 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:26:22 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.20 07:26:39 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:26:39 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 07:26:39 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 07:26:39 INFO  time: compiled root-2022-spring-team2-project2 in 0.73s
+2022.05.20 07:26:43 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:26:43 INFO  time: compiled root-2022-spring-team2-project2 in 0.72s
+2022.05.20 07:26:47 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 07:26:47 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 07:26:48 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:26:48 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.20 07:26:48 INFO  time: compiled root-2022-spring-team2-project2 in 0.74s
+2022.05.20 07:27:12 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.20 07:27:12 INFO  time: compiled root-2022-spring-team2-project2 in 0.71s
+2022.05.23 12:21:05 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\lsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.23 12:21:06 INFO  logging to file C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\metals.log
+2022.05.23 12:21:06 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2' for client Visual Studio Code 1.67.2.
+2022.05.23 12:21:07 INFO  time: initialize in 0.8s
+2022.05.23 12:21:11 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.23 12:21:11 INFO  Attempting to connect to the build server...
+2022.05.23 12:21:11 INFO  skipping build import with status 'Installed'
+May 23, 2022 12:21:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+May 23, 2022 12:21:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+May 23, 2022 12:21:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+May 23, 2022 12:21:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+May 23, 2022 12:21:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+May 23, 2022 12:21:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2022.05.23 12:21:14 INFO  no build target found for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\build.sbt. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.23 12:21:15 INFO  time: code lens generation in 3.41s
+2022.05.23 12:21:16 INFO  time: code lens generation in 4.38s
+2022.05.23 12:21:16 INFO  time: code lens generation in 3.89s
+2022.05.23 12:21:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\bsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.23 12:21:17 INFO  Attempting to connect to the build server...
+2022.05.23 12:21:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\project\.metals\bsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.23 12:21:17 INFO  time: Connected to build server in 5.8s
+2022.05.23 12:21:17 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.23 12:21:17 INFO  time: Imported build in 0.12s
+2022.05.23 12:21:19 INFO  time: indexed workspace in 1.49s
+2022.05.23 12:25:22 INFO  shutting down Metals
+2022.05.23 12:25:22 INFO  Shut down connection with build server.
+2022.05.23 12:25:22 INFO  Shut down connection with build server.
+2022.05.23 12:25:39 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\lsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.23 12:25:40 INFO  logging to file C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\metals.log
+2022.05.23 12:25:40 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2' for client Visual Studio Code 1.67.2.
+2022.05.23 12:25:41 INFO  time: initialize in 0.78s
+2022.05.23 12:25:41 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.23 12:25:41 INFO  Attempting to connect to the build server...
+2022.05.23 12:25:41 INFO  skipping build import with status 'Installed'
+2022.05.23 12:25:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\bsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.23 12:25:41 INFO  Attempting to connect to the build server...
+2022.05.23 12:25:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\project\.metals\bsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.23 12:25:41 INFO  time: Connected to build server in 0.15s
+2022.05.23 12:25:41 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.23 12:25:43 INFO  time: indexed workspace in 2.02s
+2022.05.23 13:02:37 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:02:40 INFO  time: compiled root-2022-spring-team2-project2 in 3.36s
+2022.05.23 13:02:42 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:02:42 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:02:43 INFO  time: compiled root-2022-spring-team2-project2 in 1.24s
+2022.05.23 13:02:45 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:02:46 INFO  time: compiled root-2022-spring-team2-project2 in 1.15s
+2022.05.23 13:02:48 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:02:49 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:02:49 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:02:49 INFO  time: compiled root-2022-spring-team2-project2 in 0.94s
+2022.05.23 13:02:52 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:02:52 INFO  time: compiled root-2022-spring-team2-project2 in 0.85s
+2022.05.23 13:03:00 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:03:00 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:03:00 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:03:00 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:03:00 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:03:00 INFO  time: compiled root-2022-spring-team2-project2 in 0.85s
+2022.05.23 13:03:22 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:03:22 INFO  time: compiled root-2022-spring-team2-project2 in 0.85s
+2022.05.23 13:03:37 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:03:37 INFO  time: compiled root-2022-spring-team2-project2 in 0.81s
+2022.05.23 13:03:43 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:03:43 INFO  time: compiled root-2022-spring-team2-project2 in 0.98s
+2022.05.23 13:04:16 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:04:16 INFO  time: compiled root-2022-spring-team2-project2 in 0.79s
+2022.05.23 13:04:19 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:04:19 INFO  time: compiled root-2022-spring-team2-project2 in 0.79s
+2022.05.23 13:04:22 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:04:22 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:04:22 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:04:24 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:04:24 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:04:24 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.23 13:04:27 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:04:27 INFO  time: compiled root-2022-spring-team2-project2 in 0.86s
+2022.05.23 13:04:34 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:04:34 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:04:34 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:04:34 INFO  time: compiled root-2022-spring-team2-project2 in 0.77s
+2022.05.23 13:04:39 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:04:39 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.23 13:04:42 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:04:42 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:04:42 INFO  time: compiled root-2022-spring-team2-project2 in 0.83s
+2022.05.23 13:05:03 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:05:03 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+2022.05.23 13:05:32 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:05:32 INFO  time: compiled root-2022-spring-team2-project2 in 0.76s
+2022.05.23 13:05:35 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:05:35 INFO  time: compiled root-2022-spring-team2-project2 in 0.81s
+2022.05.23 13:05:42 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:05:42 INFO  time: compiled root-2022-spring-team2-project2 in 0.78s
+May 23, 2022 1:18:27 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.Predef$.Integer2int(Predef.scala:362)
+	at scala.meta.internal.pc.SignatureHelpProvider.toSignatureHelp(SignatureHelpProvider.scala:470)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.Option.map(Option.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:28)
+
+May 23, 2022 1:18:28 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.Predef$.Integer2int(Predef.scala:362)
+	at scala.meta.internal.pc.SignatureHelpProvider.toSignatureHelp(SignatureHelpProvider.scala:470)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.Option.map(Option.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:28)
+
+2022.05.23 13:18:36 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:18:36 INFO  time: compiled root-2022-spring-team2-project2 in 0.23s
+2022.05.23 13:18:38 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:39 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:44 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:44 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:44 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:44 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:44 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:44 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:44 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:45 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:44 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:45 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:46 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:46 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:18:47 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:19:09 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:19:09 INFO  time: compiled root-2022-spring-team2-project2 in 0.99s
+2022.05.23 13:28:35 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:28:35 INFO  time: compiled root-2022-spring-team2-project2 in 0.83s
+2022.05.23 13:28:45 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:28:45 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:28:45 WARN  Could not load snapshot text for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\src\main\scala\project2.scala
+2022.05.23 13:28:45 INFO  time: compiled root-2022-spring-team2-project2 in 0.81s
+2022.05.23 13:28:51 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:28:51 INFO  time: compiled root-2022-spring-team2-project2 in 0.8s
+2022.05.23 13:28:59 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:28:59 INFO  time: compiled root-2022-spring-team2-project2 in 0.8s
+2022.05.23 13:29:19 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:29:19 INFO  time: compiled root-2022-spring-team2-project2 in 0.84s
+2022.05.23 13:32:06 INFO  compiling root-2022-spring-team2-project2 (1 scala source)
+2022.05.23 13:32:06 INFO  time: compiled root-2022-spring-team2-project2 in 0.75s
+2022.05.23 17:54:08 INFO  shutting down Metals
+2022.05.23 17:54:08 INFO  Shut down connection with build server.
+2022.05.23 17:54:08 INFO  Shut down connection with build server.

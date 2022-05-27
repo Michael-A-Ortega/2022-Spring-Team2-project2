@@ -1,15 +1,1 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\target\scala-2.11\project2_2.11-1.0.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Person.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\target\scala-2.11\classes\Person.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	project2$$anonfun$main$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\target\scala-2.11\classes\project2$$anonfun$main$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	project2$$anonfun$main$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\target\scala-2.11\classes\project2$$anonfun$main$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	project2$$anonfun$make_csv$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\target\scala-2.11\classes\project2$$anonfun$make_csv$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	project2$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\target\scala-2.11\classes\project2$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	project2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\target\scala-2.11\classes\project2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\target\scala-2.11\project2_2.11-1.0.jar[0m
