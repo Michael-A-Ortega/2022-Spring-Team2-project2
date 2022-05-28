@@ -16,3 +16,397 @@ INFO: Unsupported notification method: $/setTrace
 2022.05.27 06:52:36 INFO  shutting down Metals
 2022.05.27 06:53:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\lsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\lsp.trace.json
 2022.05.27 06:53:26 INFO  logging to file C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\metals.log
+2022.05.27 06:53:26 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2' for client Visual Studio Code 1.67.2.
+2022.05.27 06:53:27 INFO  time: initialize in 0.76s
+2022.05.27 06:53:27 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.27 06:53:27 WARN  Build server is not auto-connectable.
+2022.05.27 06:53:27 WARN  no build tool detected in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.27 06:53:27 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+May 27, 2022 6:53:27 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.05.27 06:53:28 INFO  no build target found for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.27 06:53:30 INFO  time: code lens generation in 2.15s
+2022.05.27 07:00:03 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:03 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+Exception in thread "pool-3-thread-1" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022.05.27 07:00:06 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:09 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:09 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:09 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:16 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:16 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:18 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:18 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:22 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:31 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:00:31 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:01:34 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:01:34 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:03:22 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:03:22 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:04:12 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:04:14 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:04:14 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:04:15 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:35:23 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:35:23 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:36:26 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 07:41:08 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\build.sbt
+2022.05.27 09:04:09 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:04:48 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:05:32 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:05:54 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:05:54 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:06:33 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:06:33 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:07:02 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:07:03 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:07:32 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:07:48 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:07:49 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:08:04 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:08:40 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:09:20 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:09:23 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:10:23 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:11:08 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:11:31 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:11:57 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:11:57 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:12:37 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:12:38 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:12:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:12:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:13:09 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:13:28 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:14:08 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:14:15 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:14:33 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:14:56 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:14:56 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:16:49 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:17:17 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:17:36 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:17:36 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:17:47 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:17:53 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:17:53 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:18:00 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:18:00 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:18:04 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:25:59 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:26:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:26:54 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:27:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:27:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:27:46 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:27:56 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:27:57 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:28:44 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:28:45 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:28:51 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:29:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:31:34 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:32:08 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:32:16 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:32:21 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:32:47 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:32:51 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:32:52 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:32:52 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:33:09 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:33:09 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:33:21 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:33:59 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:35:24 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:36:03 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:36:28 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:37:08 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:37:16 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:37:16 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:37:16 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:38:18 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:39:00 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:39:00 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:39:08 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:39:32 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:39:32 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:40:05 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:40:05 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:40:18 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:40:22 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:40:45 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:40:45 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:40:48 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:41:00 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:41:32 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:41:39 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:41:39 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:42:04 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:42:04 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:42:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:42:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:42:52 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:42:52 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:43:18 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:43:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:51:27 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:53:14 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:53:22 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:54:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:54:32 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:54:32 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:54:56 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:55:28 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:55:46 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:56:05 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:56:15 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:56:46 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:57:46 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:58:35 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:58:58 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:59:00 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:59:23 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:59:40 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:59:40 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:59:45 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:59:45 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:59:45 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 09:59:57 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:00:35 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:00:35 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:18:06 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:18:30 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:18:44 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:19:47 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:20:03 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:20:05 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:20:05 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:20:45 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:21:13 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:22:33 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:22:52 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:23:28 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:23:53 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:27:03 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:27:07 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:27:47 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:28:01 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:28:01 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:28:02 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:30:06 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:30:57 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:30:58 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:31:36 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\build.sbt
+2022.05.27 10:33:29 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:33:35 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:33:35 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:36:45 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:37:23 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:38:30 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:38:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:38:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:38:50 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:38:50 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:40:27 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:40:33 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:40:33 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:41:02 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:41:02 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:41:02 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:41:09 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:41:09 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:43:21 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:44:16 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:44:17 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:44:20 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:44:20 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:56:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:56:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+Exception in thread "pool-3-thread-2" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022.05.27 10:56:58 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:57:15 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:57:26 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:57:26 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:57:38 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:57:38 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:57:38 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:58:00 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 10:58:00 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:00:23 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:00:47 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:00:50 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:00:50 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:00:58 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:02 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:03 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:27 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:27 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:53 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:53 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:59 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:01:59 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:02:02 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:02:24 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:02:24 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:03:00 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:03:52 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:03:52 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:03:52 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:04:17 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:04:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:04:20 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:04:50 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:06:48 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:06:49 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:14:50 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:56:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:57:40 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:58:44 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:58:44 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:59:35 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:59:39 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:59:39 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 11:59:39 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:00:20 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:00:20 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:00:30 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:00:31 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:00:40 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:00:40 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:07:22 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:07:58 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:08:10 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:08:13 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:09:07 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:09:17 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:09:17 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:10:15 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:10:16 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:10:15 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:11:54 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:11:55 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:12:49 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:12:49 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:44:41 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 12:44:41 INFO  shutting down Metals
+2022.05.27 21:41:18 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\lsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.27 21:41:19 INFO  logging to file C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\metals.log
+2022.05.27 21:41:19 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2' for client Visual Studio Code 1.67.2.
+2022.05.27 21:41:20 INFO  time: initialize in 0.81s
+2022.05.27 21:41:20 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.27 21:41:20 WARN  Build server is not auto-connectable.
+2022.05.27 21:41:20 WARN  no build tool detected in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.27 21:41:20 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:41:22 INFO  no build target found for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.27 21:41:24 INFO  time: code lens generation in 2.98s
+2022.05.27 21:45:07 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:45:46 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:45:46 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:47:18 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:47:18 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:47:54 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:48:10 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:48:35 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:48:57 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:49:26 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:49:26 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:49:31 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:51:37 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:51:38 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:51:58 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:52:05 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:52:15 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:54:14 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:54:14 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:56:25 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:56:25 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:56:41 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:56:42 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:56:50 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:58:04 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:58:04 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:58:26 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:58:26 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:58:26 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:59:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:59:19 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 21:59:20 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:00:45 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:01:07 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:01:07 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:01:18 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:01:51 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:01:51 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:03:12 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:03:12 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:04:20 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:04:20 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.27 22:04:21 INFO  shutting down Metals
+2022.05.28 06:07:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\lsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.28 06:07:31 INFO  logging to file C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\metals.log
+2022.05.28 06:07:31 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2' for client Visual Studio Code 1.67.2.
+2022.05.28 06:07:32 INFO  time: initialize in 0.8s
+2022.05.28 06:07:32 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.28 06:07:32 WARN  Build server is not auto-connectable.
+2022.05.28 06:07:32 WARN  no build tool detected in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.28 06:07:33 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 06:07:34 INFO  no build target found for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.28 06:07:36 INFO  time: code lens generation in 3.27s
+2022.05.28 06:11:41 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 06:11:48 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 06:11:48 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 06:11:52 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 06:11:57 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 06:12:00 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 06:12:04 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 06:12:14 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 06:12:14 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 06:57:25 INFO  shutting down Metals
+2022.05.28 13:09:42 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\lsp.trace.json or C:\Users\micha_j1zul72\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.28 13:09:42 INFO  logging to file C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\.metals\metals.log
+2022.05.28 13:09:42 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2' for client Visual Studio Code 1.67.2.
+2022.05.28 13:09:43 INFO  time: initialize in 0.76s
+2022.05.28 13:09:43 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.28 13:09:43 WARN  Build server is not auto-connectable.
+2022.05.28 13:09:43 WARN  no build tool detected in workspace 'C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.28 13:09:43 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 13:09:45 INFO  no build target found for C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.28 13:41:47 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala
+2022.05.28 14:15:45 WARN  no build target for: C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala

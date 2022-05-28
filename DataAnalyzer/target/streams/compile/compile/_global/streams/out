@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\micha_j1zul72\scala\ProjectQuerey\src\main\scala\Querey.scala:6:8: not found: object spark[0m
-[0m[[0m[31merror[0m] [0m[0mimport spark.implicits._[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala:76:27: value createOrReplaceTempView is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m        max_units_country.createOrReplaceTempView("max_units_country")[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\src\main\scala\Querey.scala:77:27: value coalesce is not a member of Unit[0m
+[0m[[0m[31merror[0m] [0m[0m        max_units_country.coalesce(1).write.mode("overwrite").csv("outputs/max_units_country/")[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
