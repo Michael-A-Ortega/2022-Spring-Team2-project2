@@ -1,0 +1,120 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(dfae5425-fe37-4852-b264-812f7d896e4d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\target\scala-2.11\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0morg.apache.spark.sql.AnalysisException: cannot resolve '`gb.units`' given input columns: [gb.country, gb.n_units, mic.country, mic.units, gb.prod_category]; line 1 pos 230;[0m
+[0m[[0m[31merror[0m] [0m[0m'Project ['gb.country, 'gb.prod_category, 'gb.n_units][0m
+[0m[[0m[31merror[0m] [0m[0m+- 'Join Inner, ((country#10 = country#67) && ('gb.units = units#54L))[0m
+[0m[[0m[31merror[0m] [0m[0m   :- SubqueryAlias gb[0m
+[0m[[0m[31merror[0m] [0m[0m   :  +- SubqueryAlias gb_categories_countries[0m
+[0m[[0m[31merror[0m] [0m[0m   :     +- Sort [country#10 ASC NULLS FIRST, n_units#42L DESC NULLS LAST], true[0m
+[0m[[0m[31merror[0m] [0m[0m   :        +- Aggregate [prod_category#33, country#10], [country#10, prod_category#33, sum(n_units#34L) AS n_units#42L][0m
+[0m[[0m[31merror[0m] [0m[0m   :           +- SubqueryAlias grouped_items_per_country[0m
+[0m[[0m[31merror[0m] [0m[0m   :              +- Sort [country#10 ASC NULLS FIRST, n_units#34L DESC NULLS LAST], true[0m
+[0m[[0m[31merror[0m] [0m[0m   :                 +- Aggregate [prod_name#4, country#10], [country#10, first(prod_category#5, false) AS prod_category#33, prod_name#4, sum(cast(quantity#7 as bigint)) AS n_units#34L][0m
+[0m[[0m[31merror[0m] [0m[0m   :                    +- SubqueryAlias ecomerce_data[0m
+[0m[[0m[31merror[0m] [0m[0m   :                       +- Relation[order_id#0,customer_id#1,customer_name#2,prod_id#3,prod_name#4,prod_category#5,payment_type#6,quantity#7,price#8,datetime#9,country#10,city#11,website#12,pay_txn_id#13,payment_status#14,failed_note#15] csv[0m
+[0m[[0m[31merror[0m] [0m[0m   +- SubqueryAlias mic[0m
+[0m[[0m[31merror[0m] [0m[0m      +- Project [country#67, units#54L][0m
+[0m[[0m[31merror[0m] [0m[0m         +- Sort [country#67 ASC NULLS FIRST], true[0m
+[0m[[0m[31merror[0m] [0m[0m            +- Aggregate [country#67], [country#67, max(n_units#42L) AS units#54L][0m
+[0m[[0m[31merror[0m] [0m[0m               +- SubqueryAlias gb_categories_countries[0m
+[0m[[0m[31merror[0m] [0m[0m                  +- Sort [country#67 ASC NULLS FIRST, n_units#42L DESC NULLS LAST], true[0m
+[0m[[0m[31merror[0m] [0m[0m                     +- Aggregate [prod_category#33, country#67], [country#67, prod_category#33, sum(n_units#34L) AS n_units#42L][0m
+[0m[[0m[31merror[0m] [0m[0m                        +- SubqueryAlias grouped_items_per_country[0m
+[0m[[0m[31merror[0m] [0m[0m                           +- Sort [country#67 ASC NULLS FIRST, n_units#34L DESC NULLS LAST], true[0m
+[0m[[0m[31merror[0m] [0m[0m                              +- Aggregate [prod_name#61, country#67], [country#67, first(prod_category#62, false) AS prod_category#33, prod_name#61, sum(cast(quantity#64 as bigint)) AS n_units#34L][0m
+[0m[[0m[31merror[0m] [0m[0m                                 +- SubqueryAlias ecomerce_data[0m
+[0m[[0m[31merror[0m] [0m[0m                                    +- Relation[order_id#57,customer_id#58,customer_name#59,prod_id#60,prod_name#61,prod_category#62,payment_type#63,quantity#64,price#65,datetime#66,country#67,city#68,website#69,pay_txn_id#70,payment_status#71,failed_note#72] csv[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$2.applyOrElse(CheckAnalysis.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$2.applyOrElse(CheckAnalysis.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:289)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:289)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:288)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:306)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:304)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:306)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:304)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:95)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:95)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:107)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:107)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:106)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:118)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:127)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:127)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsUp(QueryPlan.scala:95)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:84)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:127)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$foreachUp$1.apply(TreeNode.scala:126)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$foreachUp$1.apply(TreeNode.scala:126)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:392)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:126)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$class.checkAnalysis(CheckAnalysis.scala:84)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:642)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Querey$.main(Querey.scala:78)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Querey.main(Querey.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.reflect.Method.invoke(Method.java:498)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:143)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1983)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1922)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:369)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) org.apache.spark.sql.AnalysisException: cannot resolve '`gb.units`' given input columns: [gb.country, gb.n_units, mic.country, mic.units, gb.prod_category]; line 1 pos 230;[0m
+[0m[[0m[31merror[0m] [0m[0m'Project ['gb.country, 'gb.prod_category, 'gb.n_units][0m
+[0m[[0m[31merror[0m] [0m[0m+- 'Join Inner, ((country#10 = country#67) && ('gb.units = units#54L))[0m
+[0m[[0m[31merror[0m] [0m[0m   :- SubqueryAlias gb[0m
+[0m[[0m[31merror[0m] [0m[0m   :  +- SubqueryAlias gb_categories_countries[0m
+[0m[[0m[31merror[0m] [0m[0m   :     +- Sort [country#10 ASC NULLS FIRST, n_units#42L DESC NULLS LAST], true[0m
+[0m[[0m[31merror[0m] [0m[0m   :        +- Aggregate [prod_category#33, country#10], [country#10, prod_category#33, sum(n_units#34L) AS n_units#42L][0m
+[0m[[0m[31merror[0m] [0m[0m   :           +- SubqueryAlias grouped_items_per_country[0m
+[0m[[0m[31merror[0m] [0m[0m   :              +- Sort [country#10 ASC NULLS FIRST, n_units#34L DESC NULLS LAST], true[0m
+[0m[[0m[31merror[0m] [0m[0m   :                 +- Aggregate [prod_name#4, country#10], [country#10, first(prod_category#5, false) AS prod_category#33, prod_name#4, sum(cast(quantity#7 as bigint)) AS n_units#34L][0m
+[0m[[0m[31merror[0m] [0m[0m   :                    +- SubqueryAlias ecomerce_data[0m
+[0m[[0m[31merror[0m] [0m[0m   :                       +- Relation[order_id#0,customer_id#1,customer_name#2,prod_id#3,prod_name#4,prod_category#5,payment_type#6,quantity#7,price#8,datetime#9,country#10,city#11,website#12,pay_txn_id#13,payment_status#14,failed_note#15] csv[0m
+[0m[[0m[31merror[0m] [0m[0m   +- SubqueryAlias mic[0m
+[0m[[0m[31merror[0m] [0m[0m      +- Project [country#67, units#54L][0m
+[0m[[0m[31merror[0m] [0m[0m         +- Sort [country#67 ASC NULLS FIRST], true[0m
+[0m[[0m[31merror[0m] [0m[0m            +- Aggregate [country#67], [country#67, max(n_units#42L) AS units#54L][0m
+[0m[[0m[31merror[0m] [0m[0m               +- SubqueryAlias gb_categories_countries[0m
+[0m[[0m[31merror[0m] [0m[0m                  +- Sort [country#67 ASC NULLS FIRST, n_units#42L DESC NULLS LAST], true[0m
+[0m[[0m[31merror[0m] [0m[0m                     +- Aggregate [prod_category#33, country#67], [country#67, prod_category#33, sum(n_units#34L) AS n_units#42L][0m
+[0m[[0m[31merror[0m] [0m[0m                        +- SubqueryAlias grouped_items_per_country[0m
+[0m[[0m[31merror[0m] [0m[0m                           +- Sort [country#67 ASC NULLS FIRST, n_units#34L DESC NULLS LAST], true[0m
+[0m[[0m[31merror[0m] [0m[0m                              +- Aggregate [prod_name#61, country#67], [country#67, first(prod_category#62, false) AS prod_category#33, prod_name#61, sum(cast(quantity#64 as bigint)) AS n_units#34L][0m
+[0m[[0m[31merror[0m] [0m[0m                                 +- SubqueryAlias ecomerce_data[0m
+[0m[[0m[31merror[0m] [0m[0m                                    +- Relation[order_id#57,customer_id#58,customer_name#59,prod_id#60,prod_name#61,prod_category#62,payment_type#63,quantity#64,price#65,datetime#66,country#67,city#68,website#69,pay_txn_id#70,payment_status#71,failed_note#72] csv[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed May 28, 2022 4:52:47 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

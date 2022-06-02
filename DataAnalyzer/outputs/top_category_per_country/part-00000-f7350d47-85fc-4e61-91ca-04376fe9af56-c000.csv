@@ -1,0 +1,52 @@
+country,prod_category,n_units
+Afghanistan,calculatortypes,91
+Algeria,calculatortypes,91
+Argentina,calculatortypes,107
+Bangladesh,writingutensils,116
+Bolivia,writingutensils,110
+Brazil,calculatortypes,332
+Cambodia,officesupplies,89
+Canada,writingutensils,105
+China,calculatortypes,1146
+Cuba,calculatortypes,96
+Dominican Republic,calculatortypes,97
+Ecuador,writingutensils,95
+Egypt,writingutensils,169
+France,calculatortypes,99
+Germany,writingutensils,178
+Guatemala,writingutensils,83
+Hong Kong,writingutensils,91
+India,writingutensils,451
+Indonesia,calculatortypes,103
+Iran,writingutensils,96
+Iraq,calculatortypes,101
+Italy,writingutensils,99
+Japan,calculatortypes,401
+Jordan,writingutensils,128
+Kenya,calculatortypes,86
+Kuwait,writingutensils,113
+Mexico,calculatortypes,257
+Morocco,writingutensils,81
+Myanmar,officesupplies,87
+Myanmar,calculatortypes,87
+Nigeria,writingutensils,96
+North Korea,writingutensils,121
+Pakistan,writingutensils,313
+Peru,officesupplies,94
+Philippines,calculatortypes,179
+Russia,calculatortypes,264
+Saudi Arabia,calculatortypes,107
+Singapore,calculatortypes,87
+South Korea,calculatortypes,265
+Spain,officesupplies,96
+Sudan,calculatortypes,108
+Syria,calculatortypes,104
+Taiwan,writingutensils,85
+Thailand,writingutensils,100
+Turkey,calculatortypes,113
+Ukraine,writingutensils,74
+United Arab Emirates,officesupplies,101
+United Kingdom,writingutensils,95
+United States,writingutensils,3435
+Uzbekistan,calculatortypes,144
+Yemen,calculatortypes,126

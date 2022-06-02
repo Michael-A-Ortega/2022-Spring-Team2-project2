@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(622d732b-9f70-493b-a693-f34f0c22c06b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\micha_j1zul72\scala\2022-Spring-Team2-project2\DataAnalyzer\target\scala-2.11\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

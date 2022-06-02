@@ -14,7 +14,7 @@ object Querey{
             .config("spark.eventLog.enable", "false")
             .getOrCreate()
 
-        spark.sparkContext.setLogLevel("WARN")
+        spark.sparkContext.setLogLevel("OFF")
         
            
         val schema = StructType(Array(
@@ -27,7 +27,7 @@ object Querey{
             StructField("payment_type", StringType),
             StructField("quantity", IntegerType),
             StructField("price", StringType),
-            StructField("datetime", StringType),
+            StructField("datetime", TimestampType),
             StructField("country", StringType),
             StructField("city", StringType),
             StructField("website", StringType),
@@ -44,51 +44,100 @@ object Querey{
             .load("inputs/ecommerce-team4.csv")
 
         
-        
-        
         ecomerce_data.createOrReplaceTempView("ecomerce_data")
-        //Groups all of the products per country 
-        val grouped_items_per_country = spark.sql("SELECT prod_name, SUM(quantity) AS units, cntry.country " +
-          "FROM (SELECT DISTINCT country FROM ecomerce_data) as cntry JOIN ecomerce_data ON cntry.country = ecomerce_data.country " +
-          "GROUP BY prod_name, cntry.country " +
-          "ORDER BY cntry.country , SUM(quantity) DESC")
+        ecomerce_data.cache()
 
-        //create table so we can querey from grouped items
+        val grouped_items_per_country = spark.sql("SELECT country, first(prod_category) as prod_category, prod_name,SUM(quantity) as n_units " +
+          "FROM ecomerce_data " +
+          "GROUP BY prod_name, country " +
+          "ORDER BY country, n_units DESC")
         grouped_items_per_country.createOrReplaceTempView("grouped_items_per_country")
 
-        //get product with the most units sold and turn it to a table so we can querey
-        val max_units_country = spark.sql("SELECT  country, max(units) as units FROM  grouped_items_per_country GROUP BY country ORDER BY max(units) DESC")
-        max_units_country.createOrReplaceTempView("max_units_country")
+        //grouped_items_per_country.coalesce(1).write.mode("overwrite").csv("outputs/items_per_country/")
 
-        //finally get the product name, number of units and country, 
-        val max_products_per_country = spark.sql("SELECT muc.country, prod_name, muc.units FROM grouped_items_per_country AS gipc JOIN max_units_country AS muc " +
-          "ON muc.country = gipc.country and muc.units = gipc.units " +
-          "ORDER BY muc.units")
+        val gb_categories_countries = spark.sql("SELECT country, prod_category, sum(n_units) as n_units " +
+          " FROM grouped_items_per_country " +
+          "Group By prod_category, country " +
+          "ORDER BY country, n_units DESC")
 
-        max_products_per_country.coalesce(1).write.option("header",true).mode("overwrite").csv("outputs/max_units_country/")
-        //max_units_country.coalesce(1).write.mode("overwrite").csv("outputs/max_units_country/")
+        gb_categories_countries.createOrReplaceTempView("gb_categories_countries")
+
+        //gets max per country
+        /*spark.sql("SELECT country, MAX(n_units) " +
+          "FROM gb_categories_countries " +
+          "GROUP BY country " +
+          "ORDER BY country")*/
+      gb_categories_countries.cache()
+        //first marketing q
+      val question_1_querey = spark.sql("SELECT gb.country, gb.prod_category, gb.n_units " +
+        "FROM gb_categories_countries AS gb JOIN (" +
+        "SELECT country, MAX(n_units) as units " +
+        "FROM gb_categories_countries " +
+        "GROUP BY country " +
+        "ORDER BY country) AS mic " +
+        "ON gb.country = mic.country and gb.n_units = mic.units")
+      
+
+        question_1_querey.createOrReplaceTempView("question_1_querey")
+        question_1_querey.coalesce(1).write.option("header",true).mode("overwrite").csv("outputs/top_category_per_country/")
+
+        
+
+        //
+        //quetion  2 How does the popularity of products change throughout the year? Per Country?
+        
+        val question_2_querey = spark.sql("SELECT country, MONTH(datetime) as Month ,prod_name, SUM(quantity) AS `Units Sold` " +
+          "FROM ecomerce_data " +
+          "GROUP BY country, prod_name, Month " +
+          "ORDER BY country, Month")
+
+ 
+
+        question_2_querey.createOrReplaceTempView("question_2_querey")
+        question_2_querey.coalesce(1).write.option("header",true).mode("overwrite").csv("outputs/products_change_monthly/")
+      
+
+        /*
+            Question 3
+            Which locations see the highest traffic of sales
+        */
+        val question_3 = spark.sql("SELECT country, count(*) as Total_Transactions " +
+        "FROM ecomerce_data " +
+        "GROUP by country " +
+        "ORDER BY Total_Transactions DESC")
+
+        question_3.createOrReplaceTempView("question_3")
+        question_3.coalesce(1).write.option("header",true).mode("overwrite").csv("outputs/highest_traffic_of_sales/")
 
 
-       
-        spark.stop()
+        //Question 4
+        //What times have the highest traffic of sales? Per Country?
+        
+        //highest traffic of sales global
+        /*println("Global Top 10 highest traffic times")
+        spark.sql("SELECT  date_format(datetime, 'MMM y') as `Month Year`, date_format(datetime, 'h a') as Hour,  COUNT(*)  as Sales " +
+          "FROM ecomerce_data " +
+          "WHERE datetime IS NOT NULL " +
+          "GROUP BY Hour, `Month Year` " +
+          "ORDER BY Sales DESC")*/
+
+      //highest traffic of sales per country 
+      val countries_grouped_ht = spark.sql(" SELECT country, date_format(datetime, 'MMM') as Month, COUNT(*) as Sales " +
+          "FROM ecomerce_data " +
+          "WHERE datetime IS NOT NULL " +
+          "GROUP BY Month, country " +
+          "ORDER BY Sales DESC, Country")
+      countries_grouped_ht.createOrReplaceTempView("countries_grouped_ht")
+
+      val question_4 = spark.sql("SELECT max_ht.country, Month, max_ht.Sales " +
+        "FROM countries_grouped_ht AS cms " +
+        "JOIN (SELECT country, MAX(sales) AS Sales " +
+        "FROM countries_grouped_ht " +
+        "GROUP BY country " +
+        "ORDER BY Sales DESC) as max_ht " +
+        "ON max_ht.Sales = cms.Sales and max_ht.country = cms.country")
+      
+      question_4.coalesce(1).write.option("header",true).mode("overwrite").csv("outputs/traffic_of_sales_per_country/")
+      spark.stop()
     }
 }
-        //ecomerce_data.limit(10).show()
-        //val countryDF = spark.sql("SELECT country, count(*) as sales FROM ecomerce_data GROUP by country")
-
-
-        //countryDF.coalesce(1).write.mode("overwrite").csv("outputs/country/")
-        //countryDF.show()
-
-        //single country
-        ///spark.sql("SELECT prod_name, quantity FROM ecomerce_data WHERE country = 'Russia' and prod_name = 'ti84' ")
-
-        //val countryDF = spark.sql("SELECT DISTINCT country FROM ecomerce_data")
-        //countryDF.show
-        //spark.sql("SELECT prod_name, SUM(quantity) as units FROM ecomerce_data WHERE country = 'China' GROUP BY prod_name ORDER BY units desc").show
-        //grouped_items_per_country.coalesce(1).write.mode("overwrite").csv("outputs/items_per_country/")
-        //spark.sql("SELECT country, prod_name, MAX(units) FROM grouped_items_per_country GROUP BY country, prod_name").show
-
-        //spark.sql("SELECT country, prod_name, units FROM grouped_items_per_country").show
-
-        //WORKING QUEREY PER COUNTRY ITEMS MAX
