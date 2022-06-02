@@ -86,12 +86,21 @@ object Querey{
         //
         //quetion  2 How does the popularity of products change throughout the year? Per Country?
         
-        val question_2_querey = spark.sql("SELECT country, MONTH(datetime) as Month ,prod_name, SUM(quantity) AS `Units Sold` " +
+        val question_2_querey = spark.sql("SELECT MONTH(datetime) as Month ,prod_name, SUM(quantity) AS `Units Sold` " +
           "FROM ecomerce_data " +
-          "GROUP BY country, prod_name, Month " +
-          "ORDER BY country, Month")
+          "GROUP BY prod_name, Month " +
+          "ORDER BY Month")
 
- 
+          /*
+           val question_2_querey = spark.sql("SELECT country, date_format(datetime, 'MMM y') as `Month Year` ,prod_name, SUM(quantity) AS `Units Sold` " +
+          "FROM ecomerce_data " +
+          "GROUP BY country, prod_name, `Month Year` " +
+          "ORDER BY country,`Units Sold`,`Month Year` ")*/
+
+         /*val question_2_querey = spark.sql("SELECT country, date_format(datetime, 'MMMMM') as month , YEAR(datetime) AS year, prod_name, SUM(quantity) AS `Units Sold` " +
+          "FROM ecomerce_data " +
+          "GROUP BY country, prod_name, year, month " +
+          "ORDER BY country, month, year ")*/
 
         question_2_querey.createOrReplaceTempView("question_2_querey")
         question_2_querey.coalesce(1).write.option("header",true).mode("overwrite").csv("outputs/products_change_monthly/")
